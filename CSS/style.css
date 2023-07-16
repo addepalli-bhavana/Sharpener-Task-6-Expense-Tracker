@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  color: darkred;
+  font-family: "Poppins", sans-serif;
+}
+form {
+  margin: 20px;
+  border: 2px solid darkred;
+  padding: 15px;
+  border-radius: 10px;
+  align-self: center;
+  background-color: lightgoldenrodyellow;
+}
+input ,select{
+  margin-top: 2px;
+  margin-bottom: 10px;
+  width: 250px;
+  height: 35px;
+  border: 1px solid darkred;
+  padding: 0px 5px;
+  color: darkred;
+  border-radius: 5px;
+}
+.btn {
+  background-color: darkred;
+  padding: 13px 30px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.btn:hover,
+.delete-btn:hover,
+.edit-btn:hover {
+  cursor: pointer;
+}
+.expense {
+  display: flex;
+  background-color: lightgoldenrodyellow;
+  margin: 5px 100px;
+  border: 2px solid darkred;
+  padding: 15px;
+  border-radius: 5px;
+  align-items: center;
+  font-weight: bold;
+}
+.expense-amt,
+.expense-desc,
+.expense-category {
+  width: 27%;
+  flex-grow: 1;
+  flex-shrink: 0;
+  overflow-wrap: break-word;
+  margin-right: 20px;
+}
+.delete-btn,
+.edit-btn {
+  width: 10%;
+  background-color: darkred;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+  margin: 0px 5px;
+}
